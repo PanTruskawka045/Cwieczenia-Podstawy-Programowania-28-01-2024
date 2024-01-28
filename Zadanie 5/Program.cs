@@ -23,7 +23,6 @@ namespace Zadanie_5{
                     for (int j = 0; j < matrix.GetLength(1); j++){
                         writer.WriteLine(matrix[i, j]);
                     }
-                    writer.WriteLine();
                 }
             }
         }
