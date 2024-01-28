@@ -11,6 +11,8 @@ namespace Zadanie_5{
                     matrix[i, j] = 1;
                 }
             }
+            save(matrix);
+            load();
         }
         
         private static void save(int[,] matrix){
